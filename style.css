@@ -66,6 +66,7 @@
   }
   
   .screengrab {
+    width: 200px;
     padding: 20%;
     margin: 10% 10% 0 10%;
     background-color: gray;
@@ -122,5 +123,8 @@
     .icon {
       height: 60px;
       width: 60px;
+    }
+    .screengrab {
+      width: 500px;
     }
   }
