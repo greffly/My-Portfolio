@@ -99,8 +99,8 @@
   }
 
   .icon {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
   }
 
   @media screen and (min-width: 760px) {
@@ -118,5 +118,9 @@
     }
     .aboutMe {
       margin: 40px;
+    }
+    .icon {
+      height: 40px;
+      width: 40px;
     }
   }
