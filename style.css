@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 2.2em;
   font-family: 'Slabo';
-  color: rgb(80, 78, 78);
+  color: rgb(92, 91, 91);
 }
 
 h2 {
@@ -25,9 +25,20 @@ nav {
   width: 100%;
   padding: 2%;
   margin: 0;
-  background-color: rgba(8, 134, 134, 0.932);
+  background-color: rgb(50, 141, 141);
   position: fixed;
   top: 0;
+  left: 0;
+}
+
+.navigationBar {
+  margin: 13px 0;
+}
+
+hr {
+  background-color: rgba(116, 177, 177, 0.774); 
+  border: none;
+  margin-bottom: 5%;
 }
 
 p, .projectBlurb {
@@ -52,6 +63,7 @@ ul {
 }
 
 button {
+  box-sizing: content-box;
   padding: 2%;
   width: 100px;
   cursor: pointer;
@@ -62,7 +74,7 @@ button {
 }
 
 .viewCode, .viewProject {
-  background-color: rgba(8, 134, 134, 0.932);
+  background-color: rgb(50, 141, 141);
 }
 
 .homePage {
@@ -71,17 +83,13 @@ button {
   color: rgb(99, 96, 96);
 }
 
-.aboutPage {
-  padding: 10%;
+.aboutPage, .projects {
+  padding: 5% 10% 10% 10%;
 }
 
 .aboutMe {
   margin: 20px;
   padding: 0;
-}
-
-.projects {
-  padding: 5%;
 }
 
 .projectGroup {
@@ -103,7 +111,7 @@ button {
 }
 
 .languages {
-  color: teal;
+  color: rgb(50, 141, 141);
 }
 
 .languageList {
@@ -113,7 +121,7 @@ button {
 .contact {
   padding: 4%;
   width: 100%;
-  color: teal;
+  color: rgb(50, 141, 141);
 }
 
 .icon {
@@ -132,6 +140,12 @@ button {
   }
   h1 {
     font-size: 2.5em;
+  }
+  nav {
+    padding: 1%;
+  }
+  .homePage {
+    margin-top: 70px;
   }
   .aboutPage {
     padding: 7%;
