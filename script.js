@@ -1,14 +1,10 @@
-/*$('.email')on('click', function() {
-  $('.displayInfo').html(`<h2>cgreffly@gmail.com</h2>`)
-})*/
-
 function handleIconClick() {
   $('#phoneNumber').on('click', function() {
     $('.displayInfo').html(`<h2>(707) 529-8295</h2>`);
   });
-  $('#email').on('click', function() {
+  /*$('#email').on('click', function() {
     $('.displayInfo').html(`<h2>cgreffly@gmail.com</h2>`);
-  });
+  });*/
 }
 
 $("nav").find("a").click(function(e) {
@@ -19,13 +15,8 @@ $("nav").find("a").click(function(e) {
     });
 });
 
-/*function handleNavBar() {
-  $('#home').on('click').scrollto('.projects');
-}*/
-
 function handlePage() {
   handleIconClick();
-  //handleNavBar();
 }
 
 $(handlePage);

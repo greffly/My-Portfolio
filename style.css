@@ -102,6 +102,11 @@ button {
   margin: 0;
 }
 
+.beerPhoto {
+  width: 60%;
+  margin: 0;
+}
+
 .projectTitle, .projectBlurb {
   margin: 5px;
 }
