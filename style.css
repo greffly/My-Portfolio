@@ -40,6 +40,17 @@ ul {
   padding: 0;
 }
 
+button {
+  padding: 2%;
+  width: 100px;
+  background-color: rgba(8, 134, 134, 0.932);
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  border-radius: 2px;
+  font-family: 'Montserrat';
+}
+
 .homePage {
   padding: 15%;
   background-color: whitesmoke;
@@ -119,5 +130,8 @@ ul {
   .icon {
     height: 60px;
     width: 60px;
+  }
+  button {
+    width: 170px;
   }
 }
