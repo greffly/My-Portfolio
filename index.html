@@ -11,18 +11,19 @@
   <body>
     <nav role="navigation" id="home">
       <ul class="navigationBar">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#main">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>  
     </nav>
-    <section class="homePage" role="main">
+    <section class="homePage" role="main" id="main">
       <h1>Hi, I'm Caitlyn.</h1>
       <h2>A Junior Full Stack Developer with a passion for well-crafted design.</h2>
     </section>
       <hr width="60%" align="center" size="5" id="about">
     <section class="aboutPage" role="about">
+      <p><img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/58374492_2100845863551353_7209729100330565632_n.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=16f96cc41d1f6825a009129ef3f7f851&oe=5D3B0854" alt="beer photo" class="screengrab"/></p>
       <p class="aboutMe">I am a current student in Thinkful’s Full Stack Bootcamp where I am learning the idiosyncrasies of web development. I have always been drawn to logic and problem solving, and find the concept of spending 5 hours debugging one piece of code oddly satisfying. I am a nut for creating beautiful, approachable design that is also fun when appropriate.</p>
       <p class="aboutMe">When I’m not sitting in front of my code, I am a beer enthusiast (sometimes enjoyed whilst programming), a travel addict (27 countries and counting), and a lover of board games (reigning Catan champion).</p>
       <section class="languageList" role="languageList">
@@ -42,8 +43,8 @@
         <p><img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/02/1484178566-hogwarts-castle-harry-potter-166431.jpg" alt="HP Quiz Snip"  class="screengrab"/></p>
         <h2 class="projectTitle">Harry Potter Quiz App</h2>
         <p class="projectBlurb">This project was inspired by my embarassing knowledge of the Harry Potter franchise. I created an interactive quiz that allows the user to easily iterate through each question, ultimately getting their final tally of correctly answered questions.</p>
-        <button type="button" class="viewCode">View Code</button>
-        <button type="button" class="viewProject">View Project</button>
+        <button type="button" class="viewCode" id="harryPotterCode"><a href="https://github.com/greffly/Harry-Potter-Quiz" target="_blank"><a/>View Code</button>
+        <button type="button" class="viewProject" id="harryPotterProject"><a href="https://greffly.github.io/Harry-Potter-Quiz/" target="_blank"><a/>View Project</button>
       </section>
       <section class="projectGroup" role="projectGroup">  
         <p><img src="http://emanuelkuntzelman.com/wp-content/uploads/2016/09/books-to-read.jpg" class="screengrab"/></p>
@@ -59,8 +60,8 @@
       <ul class="contactInfo">
         <li><button class="buttonIcon" id="phoneNumber"><img src="phoneteal.png" alt="Phone Number" class="icon" /></button></li>
         <li><button class="buttonIcon" id="email"><img src="mailteal.png" alt="Email" class="icon" /></button></li>
-        <li><button class="buttonIcon" id="linkedin"><img src="linkedinteal.png" alt="Linkedin" class="icon" /></button></li>
-        <li><button class="buttonIcon" id="github"><img src="githubteal.png" alt="GitHub" class="icon" /></button></li>
+        <li><button class="buttonIcon" id="linkedin"><a href="https://www.linkedin.com/in/caitlyngreffly/" target="_blank"/><img src="linkedinteal.png" alt="Linkedin" class="icon" /></button></li>
+        <li><button class="buttonIcon" id="github"><a href="https://github.com/greffly" target="_target"/><img src="githubteal.png" alt="GitHub" class="buttonIcon" /></button></li>
       </ul>
       <section class="displayInfo" role="display info"></section>
     </section>  

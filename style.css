@@ -53,7 +53,7 @@ ul {
   padding: 0;
 }
 
-.navigationBar a {
+.navigationBar a, button a, button {
   color: white;
   text-decoration: none;
 }
@@ -132,14 +132,15 @@ button {
 .buttonIcon {
   height: 35px;
   width: 35px;
+  background: none;
 }
 
 @media screen and (min-width: 760px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
   nav {
     padding: 1%;
@@ -150,7 +151,7 @@ button {
   .aboutPage {
     padding: 7%;
   }
-  p {
+  p, .projectBlurb {
     line-height: 40px;
   }
   .aboutMe {
