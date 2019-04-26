@@ -110,6 +110,14 @@ button {
   padding: 3%;
 }
 
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  right: 0;
+}
+
 .languages {
   color: rgb(50, 141, 141);
 }
@@ -160,6 +168,10 @@ button {
   .icon {
     height: 60px;
     width: 60px;
+  }
+  .buttonIcon {
+    height: 65px;
+    width: 65px;
   }
   button {
     width: 170px;
