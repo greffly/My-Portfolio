@@ -43,12 +43,15 @@ ul {
 button {
   padding: 2%;
   width: 100px;
-  background-color: rgba(8, 134, 134, 0.932);
   cursor: pointer;
   border: none;
   margin: 5px;
   border-radius: 2px;
   font-family: 'Montserrat';
+}
+
+.viewCode, .viewProject {
+  background-color: rgba(8, 134, 134, 0.932);
 }
 
 .homePage {
@@ -109,6 +112,11 @@ button {
 .icon {
   height: 30px;
   width: 30px;
+}
+
+.buttonIcon {
+  height: 35px;
+  width: 35px;
 }
 
 @media screen and (min-width: 760px) {
