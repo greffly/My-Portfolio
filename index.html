@@ -9,34 +9,34 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px" rel="stylesheet">
   </head>
   <body>
-    <nav role="navigation">
+    <nav role="navigation" id="home">
       <ul class="navigationBar">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>  
     </nav>
     <section class="homePage" role="main">
       <h1>Hi, I'm Caitlyn.</h1>
-      <h2>A Junior Full Stack Developer with a passion for well crafted design.</h2>
+      <h2>A Junior Full Stack Developer with a passion for well-crafted design.</h2>
     </section>
-    <section class="aboutPage" role="about">
+      <hr width="60%" color="lightsalmon" align="center">
+    <section class="aboutPage" role="about" id="about">
       <p class="aboutMe">I am a current student in Thinkful’s Full Stack Bootcamp where I am learning the idiosyncrasies of web development. I have always been drawn to logic and problem solving, and find the concept of spending 5 hours debugging one piece of code oddly satisfying. I am a nut for creating beautiful, approachable design that is also fun when appropriate.</p>
       <p class="aboutMe">When I’m not sitting in front of my code, I am a beer enthusiast (sometimes enjoyed whilst programming), a travel addict (27 countries and counting), and a lover of board games (reigning Catan champion).</p>
       <section class="languageList" role="languageList">
         <h1>Languages</h1>   
         <ul class="languages">
-          <li>
-            <img src="htmllogo.png" alt="html" class="icon"/>
-          </li>
+          <li><img src="htmllogo.png" alt="html" class="icon"/></li>
           <li><img src="csslogo.png" alt="css" class="icon"/></li>
           <li><img src="javascriptlogo.png" alt="javascript" class="icon"/></li>
           <li><img src="jquerylogo.png" alt="jquery" class="icon"/></li>
         </ul>
       </section>
     </section>
-    <section class="projects" role="projects">
+      <hr width="60%" color="teal" align="center">
+    <section class="projects" role="projects" id="projects">
       <h1 class="projectList">My Projects</h1>
       <section class="projectGroup" role="projectGroup">
         <p><img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/02/1484178566-hogwarts-castle-harry-potter-166431.jpg" alt="HP Quiz Snip"  class="screengrab"/></p>
@@ -53,15 +53,21 @@
         <button type="button" class="viewProject">View Project</button>
       </section>
     </section>
-    <section class="contact" role="contact">
+      <hr width="60%" color="lightblue" align="center">
+    <section class="contact" role="contact" id="contact">
       <h1>Get in Touch</h1>
       <ul class="contactInfo">
-        <li><button class="buttonIcon"><img src="phoneteal.png" alt="Phone Number" class="icon" id="phoneNumber"/></button></li>
-        <li><button class="buttonIcon"><img src="mailteal.png" alt="Email" class="icon" id="email"/></button></li>
-        <li><button class="buttonIcon"><img src="linkedinteal.png" alt="Linkedin" class="icon" id="linkedin"/></button></li>
-        <li><button class="buttonIcon"><img src="githubteal.png" alt="GitHub" class="icon" id="github"/></button></li>
+        <li><button class="buttonIcon" id="phoneNumber"><img src="phoneteal.png" alt="Phone Number" class="icon" /></button></li>
+        <li><button class="buttonIcon" id="email"><img src="mailteal.png" alt="Email" class="icon" /></button></li>
+        <li><button class="buttonIcon" id="linkedin"><img src="linkedinteal.png" alt="Linkedin" class="icon" /></button></li>
+        <li><button class="buttonIcon" id="github"><img src="githubteal.png" alt="GitHub" class="icon" /></button></li>
       </ul>
       <section class="displayInfo" role="display info"></section>
-    </section>    
+    </section>  
+    <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>  
   </body>
 </html>
