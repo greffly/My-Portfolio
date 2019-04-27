@@ -38,7 +38,7 @@ nav {
 hr {
   background-color: rgba(116, 177, 177, 0.774); 
   border: none;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 p, .projectBlurb {
@@ -84,7 +84,7 @@ button {
 }
 
 .aboutPage, .projects {
-  padding: 5% 10% 10% 10%;
+  padding: 3% 10% 10% 10%;
 }
 
 .aboutMe {
