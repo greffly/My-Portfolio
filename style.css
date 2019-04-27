@@ -71,6 +71,12 @@ button {
   margin: 5px;
   border-radius: 2px;
   font-family: 'Montserrat';
+  color: white;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 .viewCode, .viewProject {
@@ -138,6 +144,7 @@ button {
 .buttonIcon {
   height: 35px;
   width: 35px;
+  background-color: whitesmoke;
 }
 
 @media screen and (min-width: 760px) {
@@ -156,7 +163,7 @@ button {
   .aboutPage {
     padding: 7%;
   }
-  p {
+  p, .projectBlurb {
     line-height: 40px;
   }
   .aboutMe {
