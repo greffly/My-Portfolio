@@ -53,7 +53,7 @@ ul {
   margin: 0;
 }
 
-.navigationBar a {
+.navigationBar a, button a {
   color: white;
   text-decoration: none;
 }
@@ -72,11 +72,6 @@ button {
   border-radius: 2px;
   font-family: 'Montserrat';
   color: white;
-}
-
-button a {
-  color: white;
-  text-decoration: none;
 }
 
 .viewCode, .viewProject {
@@ -119,9 +114,6 @@ button a {
 
 .contactInfo, .languages {
   padding: 3%;
-}
-
-.languages {
   color: rgb(50, 141, 141);
 }
 
@@ -144,7 +136,6 @@ button a {
 .buttonIcon {
   height: 35px;
   width: 35px;
-  background-color: whitesmoke;
 }
 
 @media screen and (min-width: 760px) {
