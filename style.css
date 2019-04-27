@@ -38,7 +38,7 @@ nav {
 hr {
   background-color: rgba(116, 177, 177, 0.774); 
   border: none;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 p, .projectBlurb {
@@ -50,10 +50,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 0;
+  margin: 0;
 }
 
-.navigationBar a, button a, button {
+.navigationBar a {
   color: white;
   text-decoration: none;
 }
@@ -115,14 +115,6 @@ button {
   padding: 3%;
 }
 
-.contactInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
-  right: 0;
-}
-
 .languages {
   color: rgb(50, 141, 141);
 }
@@ -135,6 +127,7 @@ button {
   padding: 4%;
   width: 100%;
   color: rgb(50, 141, 141);
+  text-decoration: none;
 }
 
 .icon {
@@ -145,15 +138,14 @@ button {
 .buttonIcon {
   height: 35px;
   width: 35px;
-  background: none;
 }
 
 @media screen and (min-width: 760px) {
   body {
-    font-size: 18px;
+    font-size: 20px;
   }
   h1 {
-    font-size: 2.3em;
+    font-size: 2.5em;
   }
   nav {
     padding: 1%;
@@ -164,7 +156,7 @@ button {
   .aboutPage {
     padding: 7%;
   }
-  p, .projectBlurb {
+  p {
     line-height: 40px;
   }
   .aboutMe {
@@ -173,10 +165,6 @@ button {
   .icon {
     height: 60px;
     width: 60px;
-  }
-  .buttonIcon {
-    height: 65px;
-    width: 65px;
   }
   button {
     width: 170px;
