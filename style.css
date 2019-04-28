@@ -122,6 +122,7 @@ button {
   width: 100%;
   color: rgb(50, 141, 141);
   text-decoration: none;
+  background-image: linear-gradient(whitesmoke, rgb(50, 141, 141));
 }
 
 .icon {
