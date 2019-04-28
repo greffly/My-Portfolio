@@ -36,7 +36,7 @@ nav {
 }
 
 hr {
-  background-color: rgba(116, 177, 177, 0.774); 
+  background-color: rgba(116, 177, 177, 0.842); 
   border: none;
   margin-bottom: 5%;
 }
@@ -75,7 +75,7 @@ button {
 }
 
 .viewCode, .viewProject {
-  background-color: rgba(116, 177, 177, 0.774);
+  background-color: rgba(116, 177, 177, 0.842);
 }
 
 .homePage {
@@ -94,7 +94,7 @@ button {
 }
 
 .projectGroup {
-  padding: 3%;
+  padding: 3% 0;
   margin: 20px;
 }
 
