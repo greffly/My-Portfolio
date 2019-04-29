@@ -79,9 +79,9 @@ button {
 }
 
 .homePage {
-  padding: 0 15% 10%;
+  padding: 0 15% 10% 15%;
   margin-top: 10%;
-  color: rgb(50, 141, 141);
+  color: rgb(92, 91, 91);
   background-image: url("mountaincar.jpg");
   background-size: contain;
   background-repeat: no-repeat;
