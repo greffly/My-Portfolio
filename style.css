@@ -16,10 +16,6 @@ h1 {
   color: rgb(92, 91, 91);
 }
 
-.title {
-  color: rgb(50, 141, 141);
-}
-
 h2 {
   font-size: 1.2em;
   line-height: 1.4em;
@@ -83,8 +79,8 @@ button {
 }
 
 .homePage {
-  padding: 20% 15%;
-  margin-top: 13%;
+  padding: 0 15% 10%;
+  margin-top: 10%;
   color: rgb(50, 141, 141);
   background-image: url("mountaincar.jpg");
   background-size: contain;
