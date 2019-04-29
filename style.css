@@ -82,6 +82,7 @@ button {
   padding: 15%;
   margin-top: 13%;
   color: rgb(99, 96, 96);
+  background-image: url("forest.jpg");
 }
 
 .aboutPage, .projects {
