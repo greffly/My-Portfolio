@@ -81,9 +81,10 @@ button {
 .homePage {
   padding: 15%;
   margin-top: 13%;
-  color: rgb(99, 96, 96);
+  color: rgb(50, 141, 141);
   background-image: url("forest.png");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .aboutPage, .projects {
