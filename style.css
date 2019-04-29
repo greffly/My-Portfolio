@@ -16,6 +16,10 @@ h1 {
   color: rgb(92, 91, 91);
 }
 
+.title {
+  color: rgb(50, 141, 141);
+}
+
 h2 {
   font-size: 1.2em;
   line-height: 1.4em;
@@ -79,12 +83,13 @@ button {
 }
 
 .homePage {
-  padding: 15%;
+  padding: 20% 15%;
   margin-top: 13%;
   color: rgb(50, 141, 141);
   background-image: url("forest.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .aboutPage, .projects {
