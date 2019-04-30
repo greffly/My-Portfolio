@@ -80,12 +80,13 @@ button {
 
 .homePage {
   padding: 15%;
-  margin-top: 10%;
+  margin-top: 12%;
   color: rgb(92, 91, 91);
   background-image: url("geometric.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 70%;
 }
 
 .aboutPage, .projects {
