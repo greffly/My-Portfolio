@@ -82,11 +82,11 @@ button {
   padding: 15%;
   margin-top: 12%;
   color: rgb(92, 91, 91);
-  background-image: url("geometric.png");
+  background-image: url("geometric2.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70%;
+  background-size: 80%;
 }
 
 .aboutPage, .projects {
@@ -94,7 +94,7 @@ button {
 }
 
 .aboutMe {
-  margin: 20px;
+  margin: 10px 20px 20px 20px;
   padding: 0;
 }
 
