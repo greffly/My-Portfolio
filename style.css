@@ -89,8 +89,12 @@ button {
   background-size: 80%;
 }
 
-.aboutPage, .projects {
+.projects {
   padding: 3% 10% 10% 10%;
+}
+
+.aboutPage {
+  padding: 8%;
 }
 
 .aboutMe {
@@ -155,8 +159,8 @@ button {
     padding: 10% 15%;
     background-size: 540px;
   }
-  .aboutPage, projects {
-    padding: 8%;
+  .aboutPage, .projects {
+    padding: 3% 8% 8% 8%;
   }
   p, .projectBlurb {
     line-height: 40px;
