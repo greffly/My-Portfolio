@@ -7,7 +7,6 @@ body {
   font-size: 13px;
   font-family: 'Montserrat';
   color: black;
-  background-color: whitesmoke;
 }
 
 h1 {
@@ -108,7 +107,7 @@ button {
 }
 
 .screengrab {
-  width: 70%;
+  width: 80%;
   margin: 0;
 }
 
@@ -167,6 +166,9 @@ button {
   }
   .aboutMe {
     margin: 40px;
+  }
+  .screengrab {
+    width: 50%;
   }
   .icon {
     height: 60px;
