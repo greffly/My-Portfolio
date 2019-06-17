@@ -176,5 +176,6 @@ button {
   }
   button {
     width: 170px;
+    font-size: 16px;
   }
 }
