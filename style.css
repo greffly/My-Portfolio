@@ -73,8 +73,19 @@ button {
   color: white;
 }
 
+.pageLink:hover, .resumeLink:hover {
+  font-size: 1.2em;
+  color: black;
+  transition: .5s;
+}
+
 .viewCode, .viewProject {
   background-color: rgba(116, 177, 177, 0.842);
+}
+
+.viewCode:hover, .viewProject:hover {
+  background-color: rgb(50, 141, 141);
+  transition: .5s;
 }
 
 .homePage {
@@ -155,7 +166,7 @@ button {
   }
   .homePage {
     margin-top: 70px;
-    padding: 10% 15%;
+    padding: 15%;
     background-size: 540px;
   }
   .aboutPage, .projects {

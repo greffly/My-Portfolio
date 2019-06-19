@@ -4,7 +4,7 @@ function handleIconClick() {
   });
 }
 
-$("nav").find("a").click(function(e) {
+$("nav").find(".pageLink").click(function(e) {
     e.preventDefault();
     let section = $(this).attr("href");
     $("html, body").animate({
