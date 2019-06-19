@@ -2,9 +2,6 @@ function handleIconClick() {
   $('#phoneNumber').on('click', function() {
     $('.displayInfo').html(`<h2>(707) 529-8295</h2>`);
   });
-  /*$('#email').on('click', function() {
-    $('.displayInfo').html(`<h2>cgreffly@gmail.com</h2>`);
-  });*/
 }
 
 $("nav").find("a").click(function(e) {
