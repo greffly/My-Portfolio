@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-size: 2em;
-  font-family: "Catamaran:700";
+  font-family: "Merriweather", serif;
   color: rgb(92, 91, 91);
 }
 
@@ -42,7 +42,8 @@ hr {
 }
 
 p,
-.projectBlurb {
+.projectBlurb,
+.contactBlurb {
   line-height: 22px;
 }
 
@@ -160,13 +161,11 @@ button {
 .contactInfo,
 .languages {
   padding: 3%;
-  color: rgb(50, 141, 141);
 }
 
 .contact {
   padding: 4%;
   width: 100%;
-  color: rgb(50, 141, 141);
   text-decoration: none;
 }
 
@@ -190,6 +189,7 @@ button {
   }
   .title {
     font-size: 3em;
+    margin: 2%;
   }
   nav {
     padding: 1%;
@@ -208,7 +208,7 @@ button {
   }
   p,
   .projectBlurb {
-    line-height: 45px;
+    line-height: 40px;
   }
   .projectBlurb {
     margin: 10px;
