@@ -5,13 +5,13 @@
 body {
   text-align: center;
   font-size: 13px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: black;
 }
 
 h1 {
   font-size: 2em;
-  font-family: 'Catamaran:700';
+  font-family: "Catamaran:700";
   color: rgb(92, 91, 91);
 }
 
@@ -36,12 +36,13 @@ nav {
 }
 
 hr {
-  background-color: rgba(116, 177, 177, 0.842); 
+  background-color: rgba(116, 177, 177, 0.842);
   border: none;
   margin-bottom: 7%;
 }
 
-p, .projectBlurb {
+p,
+.projectBlurb {
   line-height: 22px;
 }
 
@@ -53,7 +54,8 @@ ul {
   margin: 0;
 }
 
-.navigationBar a, button a {
+.navigationBar a,
+button a {
   color: white;
   text-decoration: none;
 }
@@ -70,23 +72,26 @@ button {
   border: none;
   margin: 5px;
   border-radius: 2px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: white;
 }
 
-.pageLink:hover, .resumeLink:hover {
+.pageLink:hover,
+.resumeLink:hover {
   font-size: 1.2em;
   color: black;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.viewCode, .viewProject {
+.viewCode,
+.viewProject {
   background-color: rgba(116, 177, 177, 0.842);
 }
 
-.viewCode:hover, .viewProject:hover {
+.viewCode:hover,
+.viewProject:hover {
   background-color: rgb(50, 141, 141);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .homePage {
@@ -98,6 +103,22 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  position: relative;
+  animation: nameAnimation 1s ease-in;
+}
+
+@keyframes nameAnimation {
+  0% {
+    transform: scale(1.1, 1.1) translateY(-150%);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0%);
+  }
 }
 
 .projects {
@@ -131,11 +152,13 @@ button {
   margin: 0;
 }
 
-.projectTitle, .projectBlurb {
+.projectTitle,
+.projectBlurb {
   margin: 5px;
 }
 
-.contactInfo, .languages {
+.contactInfo,
+.languages {
   padding: 3%;
   color: rgb(50, 141, 141);
 }
@@ -176,13 +199,15 @@ button {
     padding: 15%;
     background-size: 540px;
   }
-  .aboutPage, .projects {
+  .aboutPage,
+  .projects {
     padding: 3% 8% 8% 8%;
   }
   .projectTitle {
     font-size: 1.5em;
   }
-  p, .projectBlurb {
+  p,
+  .projectBlurb {
     line-height: 40px;
   }
   .projectBlurb {
