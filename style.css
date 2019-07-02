@@ -5,19 +5,23 @@
 body {
   text-align: center;
   font-size: 13px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: black;
 }
 
 h1 {
   font-size: 2em;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   color: rgb(92, 91, 91);
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.4em;
+}
+
+.tagline {
+  font-size: 1.2em;
 }
 
 nav {
@@ -43,8 +47,10 @@ hr {
 
 p,
 .projectBlurb,
-.contactBlurb {
+.contactBlurb,
+.projectTitle {
   line-height: 22px;
+  margin: 10px 5px;
 }
 
 ul {
@@ -73,7 +79,7 @@ button {
   border: none;
   margin: 5px;
   border-radius: 2px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: white;
 }
 
@@ -96,10 +102,10 @@ button {
 }
 
 .homePage {
-  padding: 15%;
+  padding: 15% 12%;
   margin-top: 12%;
   color: rgb(92, 91, 91);
-  background-image: url("geometric2.png");
+  background-image: url('geometric2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -151,11 +157,6 @@ button {
 .beerPhoto {
   width: 55%;
   margin: 0;
-}
-
-.projectTitle,
-.projectBlurb {
-  margin: 5px;
 }
 
 .contactInfo,
