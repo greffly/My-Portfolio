@@ -112,6 +112,7 @@ button {
   background-size: 80%;
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 
 .title {
