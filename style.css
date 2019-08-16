@@ -115,7 +115,7 @@ button {
   z-index: -1;
 }
 
-.title {
+.titleLine {
   position: relative;
   animation: nameAnimation 1s ease-in;
 }
@@ -189,7 +189,7 @@ button {
   h1 {
     font-size: 2.6em;
   }
-  .title {
+  .titleLine {
     font-size: 3em;
     margin: 2%;
   }
