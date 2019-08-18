@@ -4,16 +4,24 @@ function handleIconClick() {
   });
 }
 
-$("nav").find(".pageLink").click(function(e) {
+$('nav')
+  .find('.pageLink')
+  .click(function(e) {
     e.preventDefault();
-    let section = $(this).attr("href");
-    $("html, body").animate({
-        scrollTop: $(section).offset().top
+    let section = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(section).offset().top
     });
-});
+  });
 
 function handlePage() {
   handleIconClick();
 }
+
+$('.videoPlayer').hide();
+$('#WhatToWearAppProject').click(function(e) {
+  e.preventDefault();
+  $('.videoPlayer').fadeIn();
+});
 
 $(handlePage);

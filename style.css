@@ -120,6 +120,23 @@ button {
   animation: nameAnimation 1s ease-in;
 }
 
+.whatToWearSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#WhatToWearAppProject {
+  padding: 2%;
+}
+
+.videoPlayer {
+  margin: 0 auto;
+  height: 350px;
+  width: 200px;
+  transition-timing-function: ease-out;
+}
+
 @keyframes nameAnimation {
   0% {
     transform: scale(1.1, 1.1) translateY(-150%);
@@ -224,6 +241,10 @@ button {
   .screengrab {
     width: 40%;
   }
+  .videoPlayer {
+    height: 410px;
+    width: 235px;
+  }
   .icon {
     height: 60px;
     width: 60px;
@@ -231,5 +252,12 @@ button {
   button {
     width: 170px;
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .videoPlayer {
+    height: 500px;
+    width: 285px;
   }
 }

@@ -57,13 +57,14 @@
     <section class="aboutPage" role="contentinfo">
       <p class="aboutMe">
         I'm a full stack developer with a passion for the front-end, always
-        striving to learn more and up my game. I have always been drawn to logic
-        and problem solving, and have found these skills well-nourished in web
-        development. I am a nut for creating beautiful, approachable design,
-        while tapping into my experience as a business consultant to create the
-        best product possible. I am a current student in Thinkful’s Full Stack
-        program where I am adding to my toolkit with back-end technologies, data
-        structures and algorithms.
+        striving to learn more and up my game. I am drawn to logic and problem
+        solving, and have found these skills well-nourished in web development.
+        I am a nut for creating beautiful, approachable design, while tapping
+        into my experience as a business consultant to create the best product
+        possible. I am a current student in Thinkful’s Full Stack program where
+        I am adding to my toolkit with back-end technologies, and looking for a
+        position where my optimism, creative thinking, and hard work will bring
+        value to a growing team.
       </p>
       <p class="aboutMe">
         When I’m not sitting in front of my code, I am a beer enthusiast
@@ -178,10 +179,10 @@
           rel="noopener"
           ><button type="button" class="viewProject" id="harryPotterProject">
             View Project
-          </button></a
+          </span></a
         >
       </section>
-      <section class="projectGroup" role="contentinfo">
+      <section class="projectGroup" role="contentinfo" id="whatToWearSection">
         <p>
           <img
             src="whattowear.jpeg"
@@ -190,6 +191,17 @@
           />
         </p>
         <h2 class="projectTitle">What to Wear</h2>
+        <div class="videoPlayer">
+          <iframe
+            id="projectVideo"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/hHYCLJ43JV8?rel=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <p class="projectBlurb">
           A mobile-first CRUD app where users give and receive feedback on what
           should be worn to an occasion. Inspired by my nostalgia for getting
@@ -200,15 +212,9 @@
           Created with JavaScript, React, Node.js, Express, PostgreSQL and CSS
           Grid.
         </p>
-        <a
-          href="https://twitter.com/thecaitcode/status/1161342989832036352"
-          target="_blank"
-          rel="noopener"
-        >
-          <button type="button" class="viewProject" id="jotAppProject">
-            Coming Soon!
-          </button></a
-        >
+        <button type="button" class="viewProject" id="WhatToWearAppProject">
+          Check out the Demo
+        </button>
       </section>
     </section>
     <hr width="60%" size="5" id="contact" />
@@ -221,21 +227,21 @@
       <ul class="contactInfo">
         <li>
           <button class="buttonIcon" id="email">
-            <a href="mailto: cgreffly@gmail.com"
+            <a href="mailto:cgreffly@gmail.com"
               ><img src="mailteal.png" alt="Email" class="icon"
             /></a>
           </button>
         </li>
         <li>
           <button class="buttonIcon" id="github">
-            <a href="https://github.com/greffly" target="_target"
+            <a href="https://github.com/greffly" target="_blank"
               ><img src="githubteal.png" alt="GitHub" class="icon"
             /></a>
           </button>
         </li>
         <li>
           <button class="buttonIcon" id="twitter">
-            <a href="https://twitter.com/thecaitcode" target="_target"
+            <a href="https://twitter.com/thecaitcode" target="_blank"
               ><img src="twitterlogo.png" alt="Twitter" class="icon"
             /></a>
           </button>
