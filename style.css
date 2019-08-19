@@ -241,6 +241,9 @@ button {
   .screengrab {
     width: 40%;
   }
+  #whatToWearScreengrab {
+    width: 50%;
+  }
   .videoPlayer {
     height: 410px;
     width: 235px;
