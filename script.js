@@ -19,7 +19,7 @@ function handlePage() {
 }
 
 $('.videoPlayer').hide();
-$('#WhatToWearAppProject').click(function(e) {
+$('#whatToWearAppProject').click(function(e) {
   e.preventDefault();
   $('.videoPlayer').fadeIn();
 });

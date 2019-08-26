@@ -72,16 +72,34 @@ button a {
   font-size: 1.4em;
 }
 
+.viewProject,
+.viewCode,
 button {
-  box-sizing: content-box;
-  padding: 4% 3%;
+  font-size: 0.9em;
+  height: 35px;
   width: 100px;
+  box-sizing: content-box;
+  text-decoration: none;
+  padding: 4% 3%;
   cursor: pointer;
   border: none;
-  margin: 5px;
+  margin: 15px 5px 5px;
   border-radius: 2px;
   font-family: 'Montserrat';
   color: white;
+}
+
+.buttonContainer {
+  margin-top: 8%;
+}
+
+.viewCode {
+  padding: 4% 5%;
+}
+
+#whatToWearAppProject {
+  padding: 0;
+  margin-top: 0;
 }
 
 .pageLink:hover,
@@ -125,15 +143,6 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-}
-
-button #whatToWearAppProject {
-  margin-top: 0;
-}
-
-#whatToWearAppProject {
-  padding: 2% 3%;
-  margin-top: 0;
 }
 
 .videoPlayer {
@@ -282,11 +291,19 @@ button #whatToWearAppProject {
     height: 60px;
     width: 60px;
   }
-  #whatToWearAppProject,
+  .viewCode,
+  .viewProject,
   button {
     width: 170px;
     font-size: 16px;
     padding: 2%;
+  }
+  #whatToWearAppProject {
+    padding: 1.2% 0;
+    width: 170px;
+  }
+  .buttonContainer {
+    margin-top: 3%;
   }
   .contactInfo {
     margin-left: 10%;

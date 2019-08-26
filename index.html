@@ -59,12 +59,12 @@
         I'm a full stack developer with a passion for the front-end, always
         striving to learn more and up my game. I am drawn to logic and problem
         solving, and have found these skills well-nourished in web development.
-        I am a nut for creating beautiful, accessible design, while tapping
-        into my experience as a business consultant to create the best product
+        I am a nut for creating beautiful, accessible design, while tapping into
+        my experience as a business consultant to create the best product
         possible. I am a current student in Thinkful’s Full Stack program where
         I am adding to my toolkit with back-end technologies, and looking for a
-        position where my optimism, creative thinking, and drive will add
-        value to a collaborative team.
+        position where my optimism, creative thinking, and drive will add value
+        to a collaborative team.
       </p>
       <p class="aboutMe">
         When I’m not sitting in front of my code, I am a beer enthusiast
@@ -75,14 +75,49 @@
       <section class="languageList" role="listbox">
         <h1>Stack</h1>
         <ul class="languages">
-          <li class='languageRowOne'><img src="htmllogo.png" alt="html" class="icon"/><span id='htmlTag'>HTML5</span></li>
-          <li class='languageRowOne'><img src="csslogo.png" alt="css" class="icon" id='csslogo'/><span id='cssTag'>CSS3</span></li>
-          <li class='languageRowOne'>
-            <img src="javascriptlogo.png" alt="javascript" class="icon" id='javascriptlogo'/><span id='jsTag'>JavaScript</span>
+          <li class="languageRowOne">
+            <img src="htmllogo.png" alt="html" class="icon" /><span id="htmlTag"
+              >HTML5</span
+            >
           </li>
-          <li class='languageRowTwo'><img src="nodejslogo.png" alt="node" class="icon" id='nodelogo'/><span id='nodeTag'>Node.js</span></li>
-          <li class='languageRowTwo'><img src="reactlogo.png" alt="react" class="icon" id='reactlogo'/><span id='reactTag'>React</span></li>
-          <li class='languageRowTwo'><img src="jquerylogo.png" alt="jquery" class="icon" id='jquerylogo'/><span id='jqueryTag'>jQuery</span></li>
+          <li class="languageRowOne">
+            <img src="csslogo.png" alt="css" class="icon" id="csslogo" /><span
+              id="cssTag"
+              >CSS3</span
+            >
+          </li>
+          <li class="languageRowOne">
+            <img
+              src="javascriptlogo.png"
+              alt="javascript"
+              class="icon"
+              id="javascriptlogo"
+            /><span id="jsTag">JavaScript</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="nodejslogo.png"
+              alt="node"
+              class="icon"
+              id="nodelogo"
+            /><span id="nodeTag">Node.js</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="reactlogo.png"
+              alt="react"
+              class="icon"
+              id="reactlogo"
+            /><span id="reactTag">React</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="jquerylogo.png"
+              alt="jquery"
+              class="icon"
+              id="jquerylogo"
+            /><span id="jqueryTag">jQuery</span>
+          </li>
         </ul>
       </section>
     </section>
@@ -108,18 +143,22 @@
         <p class="projectBlurb">
           Created with HTML, CSS, JavaScript and REST APIs.
         </p>
-        <a
-          href="https://github.com/greffly/MeetMe-API-Hack"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewCode">View Code</button></a
-        >
-        <a
-          href="https://greffly.github.io/MeetMe-API-Hack/"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewProject">View Project</button></a
-        >
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/greffly/MeetMe-API-Hack"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            >View Code</a
+          >
+          <a
+            href="https://greffly.github.io/MeetMe-API-Hack/"
+            target="_blank"
+            rel="noopener"
+            class="viewProject"
+            >View Project</a
+          >
+        </div>
       </section>
       <section class="projectGroup" role="contentinfo" id="whatToWearSection">
         <p>
@@ -127,7 +166,7 @@
             src="whattowear.png"
             alt="What to Wear Snip"
             class="screengrab"
-            id='whatToWearScreengrab'
+            id="whatToWearScreengrab"
           />
         </p>
         <h2 class="projectTitle">What to Wear</h2>
@@ -152,17 +191,20 @@
           Created with JavaScript, React, Node.js, Express, PostgreSQL and CSS
           Grid.
         </p>
-        <button type="button" class="viewProject" id="whatToWearAppProject">
-          Check out the Demo
-        </button>
+        <span
+          ><button class="viewProject" id="whatToWearAppProject">
+            Demo
+          </button></span
+        >
         <a
           href="https://github.com/greffly/What-To-Wear"
           target="_blank"
           rel="noopener"
-          ><button type="button" class="viewCode" id="whatToWearCode">
-            View Code
-          </button></a
+          class="viewCode"
+          id="whatToWearCode"
         >
+          View Code
+        </a>
       </section>
       <section class="projectGroup" role="contentinfo">
         <p>
@@ -177,22 +219,26 @@
         <p class="projectBlurb">
           Created with React, JavaScript, and CSS Grid.
         </p>
-        <a
-          href="https://github.com/greffly/Jot-App/tree/gh-pages"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewCode" id="jotAppCode">
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/greffly/Jot-App/tree/gh-pages"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            id="jotAppCode"
+          >
             View Code
-          </button></a
-        >
-        <a
-          href="https://greffly.github.io/Jot-App/"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewProject" id="jotAppProject">
+          </a>
+          <a
+            href="https://greffly.github.io/Jot-App/"
+            target="_blank"
+            rel="noopener"
+            class="viewProject"
+            id="jotAppProject"
+          >
             View Project
-          </button></a
-        >
+          </a>
+        </div>
       </section>
       <section class="projectGroup" role="contentinfo">
         <p>
@@ -208,22 +254,26 @@
         <p class="projectBlurb">
           Created with HTML, CSS, JavaScript and jQuery.
         </p>
-        <a
-          href="https://github.com/greffly/Harry-Potter-Quiz"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewCode" id="harryPotterCode">
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/greffly/Harry-Potter-Quiz"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            id="harryPotterCode"
+          >
             View Code
-          </button></a
-        >
-        <a
-          href="https://greffly.github.io/Harry-Potter-Quiz/"
-          target="_blank"
-          rel="noopener"
-          ><button type="button" class="viewProject" id="harryPotterProject">
+          </a>
+          <a
+            href="https://greffly.github.io/Harry-Potter-Quiz/"
+            target="_blank"
+            rel="noopener"
+            class="viewProject"
+            id="harryPotterProject"
+          >
             View Project
-          </span></a
-        >
+          </a>
+        </div>
       </section>
     </section>
     <hr width="60%" size="5" id="contact" />
