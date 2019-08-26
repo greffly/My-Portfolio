@@ -294,13 +294,16 @@ button {
   .viewCode,
   .viewProject,
   button {
-    width: 170px;
     font-size: 16px;
     padding: 2%;
   }
+
+  .viewCode {
+    padding: 2% 2.5%;
+  }
   #whatToWearAppProject {
     padding: 1.2% 0;
-    width: 170px;
+    width: 160px;
   }
   .buttonContainer {
     margin-top: 3%;
