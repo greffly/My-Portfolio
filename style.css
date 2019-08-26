@@ -282,6 +282,7 @@ button #whatToWearAppProject {
     height: 60px;
     width: 60px;
   }
+  #whatToWearAppProject,
   button {
     width: 170px;
     font-size: 16px;
