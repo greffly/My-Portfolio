@@ -4,19 +4,19 @@
 
 body {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'Montserrat';
   color: black;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: 'Merriweather', serif;
   color: rgb(92, 91, 91);
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.4em;
 }
 
@@ -28,6 +28,7 @@ nav {
   width: 100%;
   padding: 2%;
   margin: 0;
+  font-size: 0.9em;
   background-color: rgb(50, 141, 141);
   position: fixed;
   top: 0;
@@ -73,7 +74,7 @@ button a {
 
 button {
   box-sizing: content-box;
-  padding: 2%;
+  padding: 4% 3%;
   width: 100px;
   cursor: pointer;
   border: none;
@@ -126,8 +127,13 @@ button {
   align-content: center;
 }
 
-#WhatToWearAppProject {
-  padding: 2%;
+button #whatToWearAppProject {
+  margin-top: 0;
+}
+
+#whatToWearAppProject {
+  padding: 2% 3%;
+  margin-top: 0;
 }
 
 .videoPlayer {
@@ -160,11 +166,16 @@ button {
 .aboutMe {
   margin: 10px 20px 20px 20px;
   padding: 0;
+  text-align: left;
 }
 
 .projectGroup {
   padding: 3% 0;
-  margin: 20px 0;
+  margin: 30px 0;
+}
+
+.projectBlurb {
+  text-align: left;
 }
 
 .screengrab {
@@ -180,6 +191,20 @@ button {
 .contactInfo,
 .languages {
   padding: 3%;
+}
+
+.languages {
+  max-width: 90%;
+  margin: auto;
+}
+
+#htmlTag,
+#cssTag,
+#jsTag,
+#reactTag,
+#nodeTag,
+#jqueryTag {
+  display: none;
 }
 
 .contact {
@@ -218,16 +243,20 @@ button {
     padding: 15%;
     background-size: 540px;
   }
-  .aboutPage,
-  .projects {
+  .aboutPage {
     padding: 3% 8% 8% 8%;
   }
+  .projects {
+    padding: 3% 15% 8% 15%;
+  }
+
   .projectTitle {
     font-size: 1.5em;
   }
   p,
   .projectBlurb {
     line-height: 40px;
+    text-align: center;
   }
   .projectBlurb {
     margin: 10px;
@@ -237,6 +266,7 @@ button {
   }
   .aboutMe {
     margin: 40px;
+    text-align: center;
   }
   .screengrab {
     width: 40%;
@@ -255,6 +285,11 @@ button {
   button {
     width: 170px;
     font-size: 16px;
+    padding: 2%;
+  }
+  .contactInfo {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
