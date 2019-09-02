@@ -72,15 +72,19 @@ button a {
   font-size: 1.4em;
 }
 
-.viewProject,
-.viewCode,
 button {
   font-size: 0.9em;
-  height: 35px;
-  width: 100px;
+  padding: 0;
+}
+
+.viewProject,
+.viewCode,
+.buttonIcon,
+.viewDemo {
+  font-size: 0.9em;
+  padding: 4%;
   box-sizing: content-box;
   text-decoration: none;
-  padding: 4% 3%;
   cursor: pointer;
   border: none;
   margin: 15px 5px 5px;
@@ -89,17 +93,12 @@ button {
   color: white;
 }
 
+#viewDemo {
+  padding: 4% 8%;
+}
+
 .buttonContainer {
   margin-top: 8%;
-}
-
-.viewCode {
-  padding: 4% 5%;
-}
-
-#whatToWearAppProject {
-  padding: 0;
-  margin-top: 0;
 }
 
 .pageLink:hover,
@@ -110,12 +109,14 @@ button {
 }
 
 .viewCode,
-.viewProject {
+.viewProject,
+.viewDemo {
   background-color: rgba(116, 177, 177, 0.842);
 }
 
 .viewCode:hover,
-.viewProject:hover {
+.viewProject:hover,
+.viewDemo:hover {
   background-color: rgb(50, 141, 141);
   transition: 0.5s;
 }
@@ -293,7 +294,7 @@ button {
   }
   .viewCode,
   .viewProject,
-  button {
+  .buttonIcon {
     font-size: 16px;
     padding: 2%;
   }
@@ -301,10 +302,12 @@ button {
   .viewCode {
     padding: 2% 2.5%;
   }
-  #whatToWearAppProject {
-    padding: 1.2% 0;
-    width: 160px;
+
+  #viewDemo {
+    font-size: 16px;
+    padding: 2% 5%;
   }
+
   .buttonContainer {
     margin-top: 3%;
   }
