@@ -1,3 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: black;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: 'Merriweather', serif;
+  color: rgb(92, 91, 91);
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.tagline {
+  font-size: 1.2em;
+}
+
+hr {
+  background-color: rgba(116, 177, 177, 0.842);
+  border: none;
+  margin-bottom: 7%;
+}
+
+p,
+.projectBlurb,
+.contactBlurb,
+.projectTitle {
+  line-height: 22px;
+  margin: 10px 5px;
+}
 .navBarMobile {
   width: 100%;
   height: 60px;
@@ -109,63 +149,6 @@
 
 .navItem:nth-child(5) {
   transition-delay: 0.5s;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Montserrat';
-  color: black;
-}
-
-h1 {
-  font-size: 1.8em;
-  font-family: 'Merriweather', serif;
-  color: rgb(92, 91, 91);
-}
-
-h2 {
-  font-size: 1.2em;
-  line-height: 1.4em;
-}
-
-.tagline {
-  font-size: 1.2em;
-}
-/*
-.menu {
-  width: 100%;
-  padding: 2%;
-  margin: 0;
-  font-size: 0.9em;
-  background-color: rgb(50, 141, 141);
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.navigationBar {
-  margin: 13px 0;
-  padding: 0;
-} */
-
-hr {
-  background-color: rgba(116, 177, 177, 0.842);
-  border: none;
-  margin-bottom: 7%;
-}
-
-p,
-.projectBlurb,
-.contactBlurb,
-.projectTitle {
-  line-height: 22px;
-  margin: 10px 5px;
 }
 
 ul {
