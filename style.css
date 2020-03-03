@@ -41,7 +41,7 @@ p,
 .navBarMobile {
   width: 100%;
   height: 60px;
-  background-color: rgb(50, 141, 141);
+  background-color: #17686e;
   position: fixed;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@ p,
 .navigationBar {
   margin: 0;
   padding: 0;
-  background: rgb(50, 141, 141);
+  background: #17686e;
   color: #fff;
   list-style: none;
   transform: translate3d(0, -100%, 0);
@@ -208,13 +208,13 @@ button {
 .viewCode,
 .viewProject,
 .viewDemo {
-  background-color: rgba(116, 177, 177, 0.842);
+  background-color: #5fb4ba;
 }
 
 .viewCode:hover,
 .viewProject:hover,
 .viewDemo:hover {
-  background-color: rgb(50, 141, 141);
+  background-color: #17686e;
   transition: 0.5s;
 }
 
@@ -353,7 +353,7 @@ button {
     height: 80px;
     margin: 0;
     font-size: 0.9em;
-    background-color: rgb(50, 141, 141);
+    background-color: #17686e;
     position: fixed;
     top: 0;
     left: 0;
