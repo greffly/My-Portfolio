@@ -6,13 +6,13 @@ body {
   margin: 0;
   text-align: center;
   font-size: 14px;
-  font-family: 'Montserrat';
+  font-family: 'Raleway', sans-serif;
   color: black;
 }
 
 h1 {
   font-size: 1.8em;
-  font-family: 'Merriweather', serif;
+  font-family: 'Bellota Text', cursive;
   color: rgb(92, 91, 91);
 }
 
@@ -22,13 +22,38 @@ h2 {
 }
 
 .tagline {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 hr {
   background-color: rgba(116, 177, 177, 0.842);
   border: none;
   margin-bottom: 7%;
+}
+
+#nav-line {
+  margin-bottom: 0;
+  margin-top: 60px;
+  /* background-color: rgb(23, 104, 110, 0.8); */
+  background-color: white;
+  animation: navAnimation 1s ease-in;
+}
+
+#nav-line-2 {
+  margin-bottom: 0;
+  margin-top: 7px;
+  /* background-color: rgb(23, 104, 110, 0.8); */
+  background-color: white;
+  animation: navAnimation 0.8s ease-in;
+}
+
+.links {
+  color: black;
+  font-weight: 700;
+}
+
+.links:hover {
+  color: rgb(23, 104, 110);
 }
 
 p,
@@ -96,6 +121,7 @@ p,
   height: 100vh;
   overflow: hidden;
 }
+
 .navigationBar {
   margin: 0;
   padding: 0;
@@ -104,13 +130,16 @@ p,
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
+  /* z-index: 99; */
 }
 .navigationBar.show {
   transform: translate3d(0, 0%, 0);
+  z-index: 99;
 }
 .menu .navItem {
   transform: translate3d(300px, 0, 0);
   transition: all 0.5s ease-out;
+  z-index: 99;
 }
 .menu .navItem.show {
   transform: translate3d(0, 0, 0);
@@ -151,6 +180,10 @@ p,
   transition-delay: 0.5s;
 }
 
+.navItem:nth-child(6) {
+  transition-delay: 0.6s;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -186,7 +219,7 @@ button {
   border: none;
   margin: 15px 5px 5px;
   border-radius: 2px;
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
   color: white;
 }
 
@@ -219,22 +252,57 @@ button {
 }
 
 .homePage {
-  padding: 15% 12%;
-  margin-top: 70px;
-  color: rgb(92, 91, 91);
-  background-image: url('geometric2.png');
+  height: 100vh;
+  background-image: url('geo.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom right;
   background-size: 80%;
-  overflow: hidden;
   position: relative;
   z-index: -1;
 }
 
+.overlay {
+  /* background-color: rgb(23, 104, 110, 0.8); */
+  background-image: linear-gradient(
+    to right,
+    rgb(23, 104, 110),
+    rgb(23, 104, 110, 0.7)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.titleSection {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  padding-top: 16%;
+  margin: 0 0 3% 7%;
+}
+
+/* .homePage {
+  margin-top: 0;
+  height: 100vh;
+  color: rgb(92, 91, 91);
+  color: white;
+} */
+
 .titleLine {
+  margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 4em;
   position: relative;
   animation: nameAnimation 1s ease-in;
+}
+
+.tagline {
+  color: white;
 }
 
 .whatToWearSection {
@@ -250,9 +318,9 @@ button {
   transition-timing-function: ease-out;
 }
 
-@keyframes nameAnimation {
+@keyframes navAnimation {
   0% {
-    transform: scale(1.1, 1.1) translateY(-150%);
+    transform: scale(0.1, 0.1) translateY(-150%);
   }
   100% {
     transform: scale(1, 1) translateY(0%);
@@ -338,9 +406,39 @@ button {
   h1 {
     font-size: 2.6em;
   }
+
+  .homePage {
+    height: 100vh;
+    background-image: url('geo.jpeg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: bottom right;
+    background-size: 100%;
+    position: relative;
+  }
+
+  .overlay {
+    /* background-color: rgb(23, 104, 110, 0.8); */
+    background-image: linear-gradient(
+      to right,
+      rgb(23, 104, 110),
+      rgb(23, 104, 110, 0.7)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleSection {
+    margin: 0 0 3% 4%;
+  }
+
   .titleLine {
-    font-size: 3em;
-    margin: 2%;
+    margin: 0;
+    font-size: 7em;
+    /* margin: 2%; */
   }
 
   .menuButton,
@@ -353,7 +451,6 @@ button {
     height: 80px;
     margin: 0;
     font-size: 0.9em;
-    background-color: #17686e;
     position: fixed;
     top: 0;
     left: 0;
@@ -363,8 +460,10 @@ button {
   .navigationBar {
     padding: 0;
     display: flex;
-    height: 80px;
+    height: 90px;
     width: 100vw;
+    /* background-color: white; */
+    background-color: #17686e;
     flex-direction: row;
     overflow: none;
     background-attachment: fixed;
@@ -375,10 +474,11 @@ button {
   .menu .pageLink,
   .menu .resumeLink {
     align-items: center;
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: white;
+    /* color: #17686e; */
     text-decoration: none;
     transition: none;
   }
@@ -393,16 +493,32 @@ button {
     transform: translate3d(0, 0, 0);
   }
 
+  .menu .pageLink:hover,
+  .menu .resumeLink:hover {
+    font-weight: 700;
+  }
+
   .menuButton,
   .menuButton .btn-line {
     transition: none;
   }
 
-  .homePage {
-    margin-top: 70px;
-    padding: 15%;
-    background-size: 540px;
+  #nav-line {
+    margin-bottom: 0;
+    margin-top: 90px;
+    /* background-color: rgb(23, 104, 110, 0.8); */
+    background-color: white;
+    animation: navAnimation 1s ease-in;
   }
+
+  #nav-line-2 {
+    margin-bottom: 0;
+    margin-top: 7px;
+    /* background-color: rgb(23, 104, 110, 0.8); */
+    background-color: white;
+    animation: navAnimation 0.8s ease-in;
+  }
+
   .aboutPage {
     padding: 3% 8% 8% 8%;
   }
