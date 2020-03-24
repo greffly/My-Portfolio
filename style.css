@@ -282,21 +282,14 @@ button {
   bottom: 0;
   text-align: left;
   padding-top: 16%;
-  margin: 0 0 7% 7%;
+  margin: 0 0 9% 7%;
 }
-
-/* .homePage {
-  margin-top: 0;
-  height: 100vh;
-  color: rgb(92, 91, 91);
-  color: white;
-} */
 
 .titleLine {
   margin: 0;
   color: white;
   text-align: left;
-  font-size: 4em;
+  font-size: 4.5em;
   position: relative;
   animation: nameAnimation 1s ease-in;
 }
