@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: black;
+  background-color: rgb(248, 248, 248);
 }
 
 h1 {
@@ -22,7 +23,7 @@ h2 {
 }
 
 .tagline {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 hr {
@@ -31,10 +32,18 @@ hr {
   margin-bottom: 7%;
 }
 
+@keyframes navAnimation {
+  0% {
+    transform: scale(0.1, 0.1) translateY(-150%);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0%);
+  }
+}
+
 #nav-line {
   margin-bottom: 0;
   margin-top: 60px;
-  /* background-color: rgb(23, 104, 110, 0.8); */
   background-color: white;
   animation: navAnimation 1s ease-in;
 }
@@ -42,7 +51,6 @@ hr {
 #nav-line-2 {
   margin-bottom: 0;
   margin-top: 7px;
-  /* background-color: rgb(23, 104, 110, 0.8); */
   background-color: white;
   animation: navAnimation 0.8s ease-in;
 }
@@ -56,6 +64,14 @@ hr {
   color: rgb(23, 104, 110);
 }
 
+.speakerLinks {
+  color: rgb(23, 104, 110);
+}
+
+.speakerLinks:hover {
+  color: black;
+}
+
 p,
 .projectBlurb,
 .contactBlurb,
@@ -63,6 +79,7 @@ p,
   line-height: 22px;
   margin: 10px 5px;
 }
+
 .navBarMobile {
   width: 100%;
   height: 60px;
@@ -72,6 +89,7 @@ p,
   left: 0;
   z-index: 2;
 }
+
 .menuButton {
   position: absolute;
   z-index: 3;
@@ -80,6 +98,7 @@ p,
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
+
 .menuButton .btn-line {
   width: 28px;
   height: 3px;
@@ -88,6 +107,7 @@ p,
   background-color: #fff;
   transition: all 0.5s ease-out;
 }
+
 .menuButton.close {
   transform: rotate(180deg);
 }
@@ -95,9 +115,11 @@ p,
 .menuButton.close .btn-line:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
+
 .menuButton.close .btn-line:nth-child(2) {
   opacity: 0;
 }
+
 .menuButton.close .btn-line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
 }
@@ -109,9 +131,11 @@ p,
   opacity: 1;
   visibility: hidden;
 }
+
 .menu.show {
   visibility: visible;
 }
+
 .navigationBar {
   display: flex;
   flex-flow: column wrap;
@@ -130,23 +154,27 @@ p,
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
-  /* z-index: 99; */
 }
+
 .navigationBar.show {
   transform: translate3d(0, 0%, 0);
   z-index: 99;
 }
+
 .menu .navItem {
   transform: translate3d(300px, 0, 0);
   transition: all 0.5s ease-out;
   z-index: 99;
 }
+
 .menu .navItem.show {
   transform: translate3d(0, 0, 0);
 }
+
 .menu .navItem.current > a {
   color: #ffe6ff;
 }
+
 .menu .pageLink,
 .menu .resumeLink {
   display: inline-block;
@@ -263,7 +291,6 @@ button {
 }
 
 .overlay {
-  /* background-color: rgb(23, 104, 110, 0.8); */
   background-image: linear-gradient(
     to right,
     rgb(23, 104, 110),
@@ -319,15 +346,6 @@ button {
   transition-timing-function: ease-out;
 }
 
-@keyframes navAnimation {
-  0% {
-    transform: scale(0.1, 0.1) translateY(-150%);
-  }
-  100% {
-    transform: scale(1, 1) translateY(0%);
-  }
-}
-
 .projects {
   padding: 3% 10% 10% 10%;
 }
@@ -337,12 +355,6 @@ button {
 }
 .aboutPage {
   padding: 8%;
-}
-
-.aboutMe {
-  margin: 10px 20px 20px 20px;
-  padding: 0;
-  text-align: left;
 }
 
 .projectGroup {
@@ -404,32 +416,14 @@ button {
   body {
     font-size: 18px;
   }
+
   h1 {
     font-size: 2.6em;
   }
 
   .homePage {
-    height: 100vh;
-    background-image: url('geo.jpeg');
-    background-size: contain;
     background-repeat: repeat;
-    background-position: bottom right;
     background-size: 100%;
-    position: relative;
-  }
-
-  .overlay {
-    /* background-color: rgb(23, 104, 110, 0.8); */
-    background-image: linear-gradient(
-      to right,
-      rgb(23, 104, 110),
-      rgb(23, 104, 110, 0.7)
-    );
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 
   .titleSection {
@@ -439,7 +433,6 @@ button {
   .titleLine {
     margin: 0;
     font-size: 7em;
-    /* margin: 2%; */
   }
 
   .menuButton,
@@ -456,6 +449,7 @@ button {
     top: 0;
     left: 0;
     visibility: visible;
+    z-index: 99;
   }
 
   .navigationBar {
@@ -463,7 +457,6 @@ button {
     display: flex;
     height: 90px;
     width: 100vw;
-    /* background-color: white; */
     background-color: #17686e;
     flex-direction: row;
     overflow: none;
@@ -479,7 +472,6 @@ button {
     padding: 1rem 0;
     font-weight: 300;
     color: white;
-    /* color: #17686e; */
     text-decoration: none;
     transition: none;
   }
@@ -505,19 +497,7 @@ button {
   }
 
   #nav-line {
-    margin-bottom: 0;
     margin-top: 90px;
-    /* background-color: rgb(23, 104, 110, 0.8); */
-    background-color: white;
-    animation: navAnimation 1s ease-in;
-  }
-
-  #nav-line-2 {
-    margin-bottom: 0;
-    margin-top: 7px;
-    /* background-color: rgb(23, 104, 110, 0.8); */
-    background-color: white;
-    animation: navAnimation 0.8s ease-in;
   }
 
   .outline {
@@ -525,8 +505,11 @@ button {
   }
 
   .aboutPage {
+    font-size: 1.5em;
+    line-height: 1.1em;
     padding: 3% 8% 8% 8%;
   }
+
   .projects {
     padding: 3% 15% 8% 15%;
   }
@@ -534,35 +517,40 @@ button {
   .projectTitle {
     font-size: 1.5em;
   }
+
   p,
   .projectBlurb {
+    font-size: 0.8em;
     line-height: 40px;
     text-align: center;
   }
+
   .projectBlurb {
     margin: 10px;
   }
+
   .projectList {
     margin: 1%;
   }
-  .aboutMe {
-    margin: 40px;
-    text-align: center;
-  }
+
   .screengrab {
     width: 40%;
   }
+
   #whatToWearScreengrab {
     width: 50%;
   }
+
   .videoPlayer {
     height: 410px;
     width: 235px;
   }
+
   .icon {
     height: 60px;
     width: 60px;
   }
+
   .viewCode,
   .viewProject,
   .buttonIcon {
@@ -582,6 +570,7 @@ button {
   .buttonContainer {
     margin-top: 3%;
   }
+
   .contactInfo {
     margin-left: 10%;
     margin-right: 10%;
