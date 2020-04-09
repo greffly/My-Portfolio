@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: black;
+  background-color: rgb(248, 248, 248);
 }
 
 h1 {
@@ -22,7 +23,7 @@ h2 {
 }
 
 .tagline {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 hr {
@@ -61,6 +62,14 @@ hr {
 
 .links:hover {
   color: rgb(23, 104, 110);
+}
+
+.speakerLinks {
+  color: rgb(23, 104, 110);
+}
+
+.speakerLinks:hover {
+  color: black;
 }
 
 p,
@@ -316,6 +325,13 @@ button {
   color: white;
 }
 
+.outline {
+  padding: 2%;
+  border: 3px solid #17686e;
+  background-color: white;
+  margin: 3%;
+}
+
 .whatToWearSection {
   display: flex;
   flex-direction: column;
@@ -338,12 +354,6 @@ button {
 }
 .aboutPage {
   padding: 8%;
-}
-
-.aboutMe {
-  margin: 10px 20px 20px 20px;
-  padding: 0;
-  text-align: left;
 }
 
 .projectGroup {
@@ -438,6 +448,7 @@ button {
     top: 0;
     left: 0;
     visibility: visible;
+    z-index: 99;
   }
 
   .navigationBar {
@@ -489,6 +500,8 @@ button {
   }
 
   .aboutPage {
+    font-size: 1.5em;
+    line-height: 1.1em;
     padding: 3% 8% 8% 8%;
   }
 
@@ -502,6 +515,7 @@ button {
 
   p,
   .projectBlurb {
+    font-size: 0.8em;
     line-height: 40px;
     text-align: center;
   }
@@ -512,11 +526,6 @@ button {
 
   .projectList {
     margin: 1%;
-  }
-
-  .aboutMe {
-    margin: 40px;
-    text-align: center;
   }
 
   .screengrab {
