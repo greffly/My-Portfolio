@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: black;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: 'Merriweather', serif;
+  color: rgb(92, 91, 91);
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.blogPost {
+  background-color: whitesmoke;
+  outline: solid whitesmoke;
+  outline-offset: 4px;
+  margin: 50px;
+  width: 70%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
